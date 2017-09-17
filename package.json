@@ -1,0 +1,20 @@
+{
+  "author": {
+    "name": "vic.wang"
+  },
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-preset-es2015": "^6.18.0"
+  },
+  "description": "",
+  "devDependencies": {},
+  "main": "lib/index.js",
+  "name": "babel-plugin-subcomponent",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "start": "babel ./src/ -d ./lib/",
+    "prepublish": "npm start"
+  },
+  "version": "0.1.1"
+}
